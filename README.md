@@ -13,10 +13,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
+- 
 ## Overview
 
 This layout consists of 3 columns, each column has their own color and SVGs. The challenge is about giving the correct spaces between each element, and try to make the exact same layout. 
@@ -37,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/moblie-first-html-css-and-sass-PxUkQkKJU)
+- Live Site URL: [Live site](https://jcorrales07.github.io/3-card-preview/)
 
 ## My process
 
