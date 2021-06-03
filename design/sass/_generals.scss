@@ -1,0 +1,30 @@
+// COLORS 
+// COLORS
+// COLORS
+
+$orangeBright: hsl(31, 77%, 52%);
+$cyanDark: hsl(184, 100%, 22%);
+$cyanVeryDark: hsl(179, 100%, 13%);
+
+//  
+// Neutral Colors
+// 
+
+$transparentWhite: hsla(0, 0%, 100%, 0.75); //(paragraphs)
+$verylightGray: hsl(0, 0%, 95%); //(background, headings, buttons)
+
+// 
+// Font Families
+// 
+
+$LexendDeca: 'Lexend Deca', sans-serif; //400
+$bigShouldersDisplay: 'Big Shoulders Display', cursive; //700
+
+// * {
+//     box-sizing: border-box;
+// }
+
+body {
+    font-size: 15px;
+    font-family: $LexendDeca;
+}

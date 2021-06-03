@@ -1,0 +1,200 @@
+
+@use 'generals' as g;
+
+.container {
+    width: 72%;
+    max-width: 1440px;
+    margin:  9rem auto;
+    border-radius: 8px;
+    .wrap {
+        display: flex;
+        flex-direction: row;
+        // border-radius: 8px;
+        // margin: 1.5em; // <-- me hace el color del fondo imparcial
+        .cards {
+            padding: 3.5em;
+            .image {
+                margin: 0;
+                // margin-bottom: 2.7em;
+            }
+            .card-name {
+                font-family: g.$bigShouldersDisplay;
+                color: g.$verylightGray;
+                text-transform: uppercase;
+                font-size: 1.8em;
+            }
+            .card-info {
+                .info {
+                    line-height: 25px; 
+                    color: g.$transparentWhite;
+                    width: 97%;
+                    margin-bottom: 6em;
+                }
+            }
+            footer {
+                margin-bottom: 1.3em;
+                .btn {
+                    background: g.$verylightGray;
+                    border-radius: 35px;
+                    border: 2px solid transparent;
+                    padding: .9em 2.2em;
+                    text-decoration: none;
+                    &:hover {
+                        border: 2px solid g.$verylightGray;
+                    }
+                }
+            }     
+        }
+        .first-card {
+            background: g.$orangeBright;
+            border-radius: 9px 0 0 9px; 
+            .orange {
+                color: g.$orangeBright;
+                &:hover {
+                    background: g.$orangeBright;
+                    color: g.$verylightGray;
+                }
+            }
+        }
+        .second-card {
+            background: g.$cyanDark;
+            .cyan {
+               color: g.$cyanDark;
+               &:hover {
+                   background: g.$cyanDark;
+                   color: g.$verylightGray;
+               } 
+            }
+        }
+        .third-card {
+            background: g.$cyanVeryDark;
+            border-radius:  0 9px 9px 0;
+            .dark-cyan {
+                color: g.$cyanVeryDark;
+                &:hover {
+                    background: g.$cyanVeryDark;
+                    color: g.$verylightGray;
+                }
+            }
+        }
+    }
+}
+
+.attribution {
+    font-size: 1.2rem; 
+    text-align: center;
+    margin: 45px 0;
+    a {
+        color: hsl(36, 100%, 50%);   
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .container {
+        width: 60%;
+        max-width: 375px;
+        border-radius: 8px;
+        .wrap {
+            display: flex;
+            flex-direction: column;
+            // border-radius: 8px;
+            // margin: 1.5em; // <-- me hace el color del fondo imparcial
+            .cards {
+                padding: 3.5em;
+                .image {
+                    margin-bottom: 2.7em;
+                }
+                .card-name {
+                    font-family: g.$bigShouldersDisplay;
+                    color: g.$verylightGray;
+                    text-transform: uppercase;
+                    font-size: 1.8em;
+                }
+                .card-info {
+                    .info {
+                        line-height: 25px; 
+                        color: g.$transparentWhite;
+                        width: 85%;
+                        margin-bottom: 2.5em;
+                    }
+                }
+                footer {
+                    margin-bottom: 1.3em;
+                    .btn {
+                        background: g.$verylightGray;
+                        border-radius: 35px;
+                        border: 2px solid transparent;
+                        padding: .9em 2.2em;
+                        text-decoration: none;
+                        // font-size: 15px;
+                        &:hover {
+                            border: 2px solid g.$verylightGray;
+                        }
+                    }
+                }     
+            }
+            .first-card {
+                background: g.$orangeBright;
+                border-radius: 9px 9px 0 0; 
+                .orange {
+                    color: g.$orangeBright;
+                    &:hover {
+                        background: g.$orangeBright;
+                        color: g.$verylightGray;
+                    }
+                }
+            }
+            .second-card {
+                background: g.$cyanDark;
+                .cyan {
+                   color: g.$cyanDark;
+                   &:hover {
+                       background: g.$cyanDark;
+                       color: g.$verylightGray;
+                   } 
+                }
+            }
+            .third-card {
+                background: g.$cyanVeryDark;
+                border-radius:  0 0 9px 9px;
+                .dark-cyan {
+                    color: g.$cyanVeryDark;
+                    &:hover {
+                        background: g.$cyanVeryDark;
+                        color: g.$verylightGray;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1085px) {
+    footer {
+        .btn {
+            background: g.$verylightGray;
+            border-radius: 35px;
+            border: 2px solid transparent;
+            padding: .5em 1em;
+            font-size: 12px;
+            text-decoration: none;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+        .cards {
+            font-size: 12px; 
+        }
+    footer {
+        .btn {
+            background: g.$verylightGray;
+            border-radius: 35px;
+            border: 2px solid transparent;
+            padding: .5em 1em;
+            font-size: 10px;
+            text-decoration: none;
+        }
+    }
+}
+    

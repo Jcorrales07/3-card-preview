@@ -1,0 +1,188 @@
+body {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  width: 72%;
+  max-width: 1440px;
+  margin: 9rem auto;
+  border-radius: 8px;
+}
+.container .wrap {
+  display: flex;
+  flex-direction: row;
+}
+.container .wrap .cards {
+  padding: 3.5em;
+}
+.container .wrap .cards .image {
+  margin: 0;
+}
+.container .wrap .cards .card-name {
+  font-family: "Big Shoulders Display", cursive;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-size: 1.8em;
+}
+.container .wrap .cards .card-info .info {
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.75);
+  width: 97%;
+  margin-bottom: 6em;
+}
+.container .wrap .cards footer {
+  margin-bottom: 1.3em;
+}
+.container .wrap .cards footer .btn {
+  background: #f2f2f2;
+  border-radius: 35px;
+  border: 2px solid transparent;
+  padding: 0.9em 2.2em;
+  text-decoration: none;
+}
+.container .wrap .cards footer .btn:hover {
+  border: 2px solid #f2f2f2;
+}
+.container .wrap .first-card {
+  background: #e38826;
+  border-radius: 9px 0 0 9px;
+}
+.container .wrap .first-card .orange {
+  color: #e38826;
+}
+.container .wrap .first-card .orange:hover {
+  background: #e38826;
+  color: #f2f2f2;
+}
+.container .wrap .second-card {
+  background: #006970;
+}
+.container .wrap .second-card .cyan {
+  color: #006970;
+}
+.container .wrap .second-card .cyan:hover {
+  background: #006970;
+  color: #f2f2f2;
+}
+.container .wrap .third-card {
+  background: #004241;
+  border-radius: 0 9px 9px 0;
+}
+.container .wrap .third-card .dark-cyan {
+  color: #004241;
+}
+.container .wrap .third-card .dark-cyan:hover {
+  background: #004241;
+  color: #f2f2f2;
+}
+
+.attribution {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 45px 0;
+}
+.attribution a {
+  color: #ff9900;
+}
+
+@media screen and (max-width: 1010px) {
+  .container {
+    width: 60%;
+    max-width: 375px;
+    border-radius: 8px;
+  }
+  .container .wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .wrap .cards {
+    padding: 3.5em;
+  }
+  .container .wrap .cards .image {
+    margin-bottom: 2.7em;
+  }
+  .container .wrap .cards .card-name {
+    font-family: "Big Shoulders Display", cursive;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    font-size: 1.8em;
+  }
+  .container .wrap .cards .card-info .info {
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.75);
+    width: 85%;
+    margin-bottom: 2.5em;
+  }
+  .container .wrap .cards footer {
+    margin-bottom: 1.3em;
+  }
+  .container .wrap .cards footer .btn {
+    background: #f2f2f2;
+    border-radius: 35px;
+    border: 2px solid transparent;
+    padding: 0.9em 2.2em;
+    text-decoration: none;
+  }
+  .container .wrap .cards footer .btn:hover {
+    border: 2px solid #f2f2f2;
+  }
+  .container .wrap .first-card {
+    background: #e38826;
+    border-radius: 9px 9px 0 0;
+  }
+  .container .wrap .first-card .orange {
+    color: #e38826;
+  }
+  .container .wrap .first-card .orange:hover {
+    background: #e38826;
+    color: #f2f2f2;
+  }
+  .container .wrap .second-card {
+    background: #006970;
+  }
+  .container .wrap .second-card .cyan {
+    color: #006970;
+  }
+  .container .wrap .second-card .cyan:hover {
+    background: #006970;
+    color: #f2f2f2;
+  }
+  .container .wrap .third-card {
+    background: #004241;
+    border-radius: 0 0 9px 9px;
+  }
+  .container .wrap .third-card .dark-cyan {
+    color: #004241;
+  }
+  .container .wrap .third-card .dark-cyan:hover {
+    background: #004241;
+    color: #f2f2f2;
+  }
+}
+@media screen and (max-width: 1085px) {
+  footer .btn {
+    background: #f2f2f2;
+    border-radius: 35px;
+    border: 2px solid transparent;
+    padding: 0.5em 1em;
+    font-size: 12px;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 380px) {
+  .cards {
+    font-size: 12px;
+  }
+
+  footer .btn {
+    background: #f2f2f2;
+    border-radius: 35px;
+    border: 2px solid transparent;
+    padding: 0.5em 1em;
+    font-size: 10px;
+    text-decoration: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
